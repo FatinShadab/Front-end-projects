@@ -1,0 +1,31 @@
+body::before{
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+.text-custom{
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: normal;
+    font-family: 'Tahoma';
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tahoma';
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px red;
+}
+h1 span {  
+    filter: contrast(20px);
+}
+
+.divider{
+    background: linear-gradient(to right,#582841 5%,#cc2a49 50%,#582841 95%);
+    color: #fff;
+    height: 10px;
+}

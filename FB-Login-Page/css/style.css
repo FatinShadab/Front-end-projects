@@ -1,0 +1,37 @@
+body::before{
+    display: block;
+    content: '';
+    height: 150px;
+}
+
+
+@media(min-width: 992px) {
+    .news-input{
+        width: 45%;
+        height: 45%;
+    }
+    
+}
+
+@media(min-width: 992px) {
+    .custom-card{
+        width: 45%;
+        height: 45%;
+        background-color: aliceblue;
+    }
+    
+}
+
+@media(min-width: 992px) {
+    .custom-card-body{
+        width: 100%;
+    }
+    
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}

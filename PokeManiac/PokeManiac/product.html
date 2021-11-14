@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- Bootstrap icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>PokeManiac</title>
+    <link rel="shortcut icon" href="assests/imgs/pokemon-trainer-pokemon-svgrepo-com.svg">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-custom fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"><h4><b>HOME</b></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="consoles-catagories.html"><h4><b>CONSOLES</b></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="emulators.html"><h4><b>EMULATORS</b></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="bios.html"><h4><b>BIOS</b></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="rom-categories.html"><h4><b>ROMS</b></h4></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle py-1" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="roms.html">GBA ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">3DS ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">SNES ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">NDS ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">GBC ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">N64 ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">NES ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">PSX ISOs ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">GB ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">SAGA ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">GameCube ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">Wii ISOs ROM</a></li>
+                <li><a class="dropdown-item" href="roms.html">Pokemon ROM</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit"> <h4><b>Search</b></h4></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="text-light p-5 text-center" style="background-image: url('assests/imgs/WhDLNG.png'); width: 100%; background-size: auto; height: 371px;">
+        <div class="container-fluid">
+          <div class="row pt-2">
+            <div class="col-lg-12">
+              <img class="img-fluid shadow" src="assests/imgs/pokemon-trainer-pokemon-svgrepo-com.svg" alt="../" width="100" height="100">
+              <h1><span class="text-light"><b>Poke Maniac</b></span></h1>
+            </div>
+          </div>
+        </div>
+    </section>
+          
+    <!-- search input -->
+    <section class=" bg-dark text-light p-3">
+        <div class="container-fluid">
+          <div class="input-group mb-3 pt-2">
+            <input type="text" class="form-control form-control-lg" placeholder=" Search ..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-lg btn-outline-danger text-custom" type="button">Search</button>
+          </div>
+        </div>
+    </section>
+    
+    <!-- Divider -->
+    <div class="container-fluid divider"></div>
+
+    <!-- Main Content -->
+    <section class="p-5" style="font-family: 'Tahoma';">
+        <div class="container">
+            <!-- breadcrumb -->
+            <ul class="list-group list-group-horizontal breadcrumb d-lg-none bg-dark my-2" aria-label="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="home.html"><span class="text-light mb-2 mx-1" style="text-decoration: crimson; font-size: 12px;"><b>HOME</b></span></a></li>
+                <li class="breadcrumb-item">
+                  <a href="rom-categories.html"><span class="text-light mb-2" style="text-decoration: crimson; font-size: 12px;"><b>ROMS</b></span></a></li>
+                <li class="breadcrumb-item">
+                  <a href="roms.html"><span class="text-light mb-2" style="text-decoration: crimson; font-size: 12px;"><b>GBA ROMS</b></span></a></li>
+                <li class="breadcrumb-item active mb-2" aria-current="page"><span class="text-danger" style="text-decoration: none; font-size: 12px;"><b>PoKemon Sun and Moon</b></span></li>
+            </ul>
+            <!-- content header -->
+            <div class="h2">
+              <b>Pokemon Sun and Moon</b>
+              <hr class="d-none d-sm-block d-none text-danger" style="height: 5px;">
+            </div>
+            <!--Product info -->
+            <div class="row p-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 py-5">
+                    <img src="assests/imgs/images (5).jfif" alt="../">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 p-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex bd-highlight">
+                                <div class="p-2 flex-grow-1 bd-highlight">NAME:</div>
+                                <div class="p-2 bd-highlight">Pokemon Sun And Moon</div>
+                              </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex bd-highlight">
+                                <div class="p-2 flex-grow-1 bd-highlight">PUBLISH:</div>
+                                <div class="p-2 bd-highlight">07 Apr 2020</div>
+                              </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex bd-highlight">
+                                <div class="p-2 flex-grow-1 bd-highlight">GENRE:</div>
+                                <div class="p-2 bd-highlight">Platform</div>
+                              </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex bd-highlight">
+                                <div class="p-2 flex-grow-1 bd-highlight">LANGUAGE:</div>
+                                <div class="p-2 bd-highlight">USA</div>
+                              </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex bd-highlight">
+                                <div class="p-2 flex-grow-1 bd-highlight">SIZE:</div>
+                                <div class="p-2 bd-highlight">2.3 mb</div>
+                              </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-outline-danger m-2 w-100"><b>DOWNLOAD</b></button>
+                </div>
+            </div>
+            <!-- text-card -->
+            <div class="card text-center shadow">
+                <div class="card-header">
+                    More Information
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ea numquam ad cupiditate cum? Tempore, placeat iste quaerat odit, debitis ut dolorem quo sapiente nemo corrupti qui magnam fugit reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ullam deserunt rerum aliquam, provident assumenda veritatis facilis soluta amet. Odit fuga dolorum vero adipisci minima, eos corrupti quasi? Quia, ipsum?</p>
+                </div>
+            </div>
+            <!-- Buttons Group-->
+            <div class="p-5" style="text-align: center;">
+                <a class="btn btn-lg btn-outline-secondary" href="rom-categories.html" role="button">ROMS</a>
+                <a class="btn btn-lg btn-outline-secondary" href="consoles-catagories.html" role="button">CONSOLE</a>
+                <a class="btn btn-lg btn-outline-secondary" href="emulators.html" role="button">EMULATORS</a>
+                <a class="btn btn-lg btn-outline-secondary" href="bios.html" role="button">BIOS</a>
+            </div>
+            <!-- Similar-product-text -->
+            <div class="text-center" style="font-size: 23px;">
+                <p><b>Similar with Pokemon Sun and Moon</b></p>
+            </div>
+            <!-- Similar-products -->
+            <div class="row px-5 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="#" class="list-group-item list-group-item-action my-2">
+                          <div class="d-sm-flex">
+                              <div class="card mx-3">
+                                  <img src="assests/imgs/images (5).jfif" class="card-img-top rounded" alt="..." width="100%" height="100%">
+                              </div>
+                              <div class="pt-2 text-center">
+                                <b class="small">Pokemon Sun and Moon</b>
+                              </div>
+                          </div>
+                      </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="#" class="list-group-item list-group-item-action my-2">
+                          <div class="d-sm-flex">
+                              <div class="card mx-3">
+                                  <img src="assests/imgs/images (5).jfif" class="card-img-top rounded" alt="..." width="100%" height="100%">
+                              </div>
+                              <div class="pt-2 text-center">
+                                <b class="small">Pokemon Sun and Moon</b>
+                              </div>
+                          </div>
+                      </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="#" class="list-group-item list-group-item-action my-2">
+                          <div class="d-sm-flex">
+                              <div class="card mx-3">
+                                  <img src="assests/imgs/images (5).jfif" class="card-img-top rounded" alt="..." width="100%" height="100%">
+                              </div>
+                              <div class="pt-2 text-center">
+                                <b class="small">Pokemon Sun and Moon</b>
+                              </div>
+                          </div>
+                      </a>
+                </div>
+            </div>
+            <!-- comment -->
+            <div class="p-3 m-5" style="border-left: 4px solid #0ebd5b;">
+                <p><b>Leave a Reply</b></p>
+                <p><small class="text-secondary">Your email address will not be published. Required fields are marked *</small></p>  
+                <form>
+                    <div class="mb-4">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text" id="inputGroup-sizing-default">NAME*</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text" id="inputGroup-sizing-default">EMAIL*</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Save my name, email, and website in this browser for the next time I comment.</label>
+                    </div>
+                    <div class="pt-4" style="text-align: left;">
+                        <button type="submit" class="btn btn-outline-success">POST COMMENT</button>
+                    </div>
+                </form>   
+            </div> 
+        </div>
+    </section>
+            
+
+    <!-- Divider -->
+    <div class="container-fluid divider"></div>
+
+    <!-- footer -->
+    <section class="bg-dark text-light p-5" style="font-family: 'Tahoma';">
+        <div class="container">
+          <footer class="align-items-center">
+            <div class="card mb-3" style="background-color: rgb(31, 0, 31);">
+                <div class="d-sm-flex d-md-flex">
+                    <img src="assests/imgs/92397dab90f1d9854a27ea4ba9035da2.png" class="img-fluid rounded" alt="...">
+                    <div class="card-body">
+                        <p class="card-title text-center pt-3">Contact us or Request a <span style="color: yellow;">BIOS!</span></p>
+                        <form class="pt-4">
+                            <div class="mb-3">
+                                <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" placeholder="Information about the requested Rom" rows="3"></textarea>
+                            </div>
+                            <div  class="pt-3" style="text-align: right;">
+                                <button type="submit" class="btn btn-outline-danger text-right" style="text-align: right;"><b>Submit</b></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-5 text-center"><span class="text-danger">PokeManiac</span> &copy; 2021. All Rights Reserved. </p>
+          </footer>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Custom js -->
+    <script src="assests/js/script.js"></script>
+  </body>
+</html>
