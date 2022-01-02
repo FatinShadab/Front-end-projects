@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <style>
+        body::before{
+            display: block;
+            content: '';
+            height: 60px;
+        }
+    </style>
+
+    <!-- title -->
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-success fw-bold">Daily News.com</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+
+    <!-- Header & filterForm -->
+    <section class="bg-success p-5 text-center mt-2">
+        <div class="container-fluid">
+            <h1 class= "text-dark text-center fw-bold pb-3">Daily News.com</h1>
+            <div class="container pt-3">
+                <p class="h3 text-center">Filter News by date and save time (:</p>
+                <form class="row g-3 justify-content-center py-3">
+                    <div class="col-lg-auto">
+                      <div class="d-flex">
+                        <label for="startdate" class="fw-bold mx-1 mt-1 h5">From:</label>
+                        <input type="date" class="form-control w-100" id="startdate">
+                      </div>
+                    </div>
+                    <div class="col-lg-auto">
+                        <div class="d-flex">
+                            <label for="enddate" class="fw-bold mx-1 mt-1 h5">To:</label>
+                            <input type="date"class="form-control w-100" id="enddate">
+                        </div>
+                      </div>
+                    <div class="col-lg-auto text-center">
+                      <button type="submit" class="btn btn-outline-dark mb-3 fw-bold">filter</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- search input -->
+    <section class=" bg-dark text-light p-3">
+        <div class="container-fluid">
+            <div class="input-group mb-3 pt-2">
+                <input type="text" class="form-control form-control-lg" placeholder=" Search by title">
+                <button class="btn btn-lg btn-outline-success" type="button">Search</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- News -->
+    <section class="pt-5" style="font-family: 'Tahoma';">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col col-lg-4 col-md-8 col-sm-12">
+                <div class="list-group list-group-flush">
+                  <div class="card mb-3 shadow w-100">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Go somewhere</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 shadow w-100">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Go somewhere</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 shadow w-100">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Go somewhere</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-8 col-sm-12">
+                <div class="list-group list-group-flush">
+                  <div class="card mb-3 shadow w-100">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Go somewhere</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 shadow w-100">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Go somewhere</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 shadow w-100">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Go somewhere</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-8 col-sm-12">
+              <div class="list-group list-group-flush">
+                <div class="card mb-3 shadow w-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mb-3 shadow w-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mb-3 shadow w-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 <sapn class="text-success fw-bold">Daily News.Com</sapn></p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1 text-success"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
